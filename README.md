@@ -9,6 +9,7 @@ Contexto:
 
 RedExpress gestiona paquetes y rastreo de envíos mediante una app móvil y una plataforma web.
 La infraestructura actual incluye servicios desplegados en la nube, servidores regionales para procesamiento de rutas, y una base de datos centralizada.
+
 Elementos esperados para modelar:
 
 Componentes de infraestructura:
@@ -18,11 +19,13 @@ Base de datos distribuida
 API Gateway
 Servicios de monitoreo y alertas
 Módulos de procesamiento de rutas y estados de paquetes
+
 Áreas críticas a diagnosticar:
 
 Latencia en rastreo en tiempo real
 Riesgo de puntos únicos de falla
 Escalabilidad por zonas geográficas
+
 🧪 Parte 1: Trabajo en Clase
 Durante la clase se espera que el equipo:
 
@@ -31,14 +34,18 @@ Identifique zonas sensibles de carga, disponibilidad, monitoreo o redundancia.
 Use papel, draw.io o cualquier herramienta visual para registrar su análisis.
 Documente posibles problemas y cómo podrían abordarse.
 Reciba retroalimentación en vivo del docente.
+
 🧠 Parte 2: Aplicación al Cliente Real
+
 Después de la clase, el equipo debe:
 
 Elaborar el mapa de infraestructura del sistema real del cliente.
 Identificar debilidades o cuellos de botella reales o potenciales.
 Redactar un informe explicando el diagnóstico técnico.
 Complementar con una pequeña investigación sobre buenas prácticas de arquitectura de infraestructura (cloud, on-premise, híbrida).
+
 📁 Estructura esperada del repositorio
+
     taller-04-infraestructura/
     ├── README.md
     ├── clase/

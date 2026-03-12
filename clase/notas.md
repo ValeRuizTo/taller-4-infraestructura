@@ -64,7 +64,7 @@ Un punto único de falla es un componente cuya caída podría provocar la interr
 
 Uno de los posibles SPOF identificados fue la base de datos centralizada, ya que si esta base de datos fallara, los servicios del sistema no podrían acceder a la información necesaria para procesar envíos o rastrear paquetes. Para mitigar este riesgo se propuso el uso de replicación de base de datos, donde una instancia secundaria puede asumir el rol de la instancia principal en caso de falla.
 
-Otro posible SPOF identificado fue el API Gateway, ya que actúa como punto central de acceso a los microservicios. Si el API Gateway fallara, las solicitudes de los usuarios no podrían ser procesadas. Para reducir este riesgo se planteó la posibilidad de desplegar múltiples instancias del API Gateway distribuidas entre distintas zonas de disponibilidad.
+Otro posible SPOF identificado fue el API Gateway, ya que actúa como punto central de acceso a los servicios. Si el API Gateway fallara, las solicitudes de los usuarios no podrían ser procesadas. Para reducir este riesgo se planteó la posibilidad de desplegar múltiples instancias del API Gateway distribuidas entre distintas zonas de disponibilidad.
 
 El balanceador de carga también se identificó como un componente crítico, ya que es responsable de distribuir el tráfico hacia los servicios disponibles. En arquitecturas cloud modernas este componente suele implementarse como un servicio distribuido que funciona en múltiples nodos, reduciendo así el riesgo de fallos.
 

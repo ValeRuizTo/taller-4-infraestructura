@@ -72,9 +72,11 @@ Adicionalmente se identificaron posibles riesgos en los servidores regionales, q
 
 
 - **¿Qué herramientas se usaron?**
+  
 Para realizar el trabajo se utilizó la herramienta **draw.io**, en la cual se empezó a construir el diagrama de infraestructura que muestra los diferentes componentes del sistema y sus conexiones.
 
 - **¿Qué parte del trabajo se alcanzó a desarrollar?**
+  
 Durante la sesión se logró construir una primera versión del mapa de infraestructura de RedExpress, en el cual se representaron los principales componentes tecnológicos del sistema y el flujo de comunicación entre ellos.
 
 Este diagrama permitió visualizar de manera clara cómo interactúan los dispositivos móviles, la infraestructura de red, los servidores regionales y los servicios desplegados en la nube. Además, permitió identificar zonas críticas del sistema donde podrían presentarse problemas de rendimiento o disponibilidad.

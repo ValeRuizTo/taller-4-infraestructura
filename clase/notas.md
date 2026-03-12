@@ -59,6 +59,7 @@ A su vez, este cluster se ejecuta sobre un conjunto de máquinas virtuales propo
 Finalmente, se incluyó una base de datos centralizada replicada, encargada de almacenar la información de los envíos, estados de los paquetes y registros de rastreo. También se incorporaron servicios de monitoreo y alertas que permiten supervisar el funcionamiento del sistema y detectar posibles fallos.
 
 - **Identificación de puntos únicos de falla (SPOF)**
+  
 Un punto único de falla es un componente cuya caída podría provocar la interrupción total o parcial del sistema. Identificar estos puntos es fundamental para mejorar la disponibilidad y resiliencia de la infraestructura.
 
 Uno de los posibles SPOF identificados fue la base de datos centralizada, ya que si esta base de datos fallara, los servicios del sistema no podrían acceder a la información necesaria para procesar envíos o rastrear paquetes. Para mitigar este riesgo se propuso el uso de replicación de base de datos, donde una instancia secundaria puede asumir el rol de la instancia principal en caso de falla.

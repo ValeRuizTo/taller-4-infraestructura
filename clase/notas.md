@@ -28,7 +28,7 @@ También se discutió la función de los centros de distribución físicos, que 
 
 Posteriormente se analizaron los servidores regionales, cuya función es procesar información relacionada con rutas de entrega, optimización logística y gestión local de envíos. Estos servidores permiten reducir la carga sobre los sistemas centrales y mejorar la eficiencia operativa en distintas zonas geográficas.
 
-Una parte importante de la discusión se centró en la infraestructura en la nube, donde se ejecutan los servicios principales del sistema. Se analizó cómo los usuarios acceden a la plataforma a través de internet y cómo las solicitudes son gestionadas por un balanceador de carga y un API Gateway antes de llegar a los microservicios que procesan la información.
+Una parte importante de la discusión se centró en la infraestructura en la nube, donde se ejecutan los servicios principales del sistema. Se analizó cómo los usuarios acceden a la plataforma a través de internet y cómo las solicitudes son gestionadas por un balanceador de carga y un API Gateway antes de llegar a los servicios que procesan la información.
 
 También se discutieron los diferentes módulos funcionales del sistema, entre ellos:
 

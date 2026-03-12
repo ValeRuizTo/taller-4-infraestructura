@@ -10,7 +10,6 @@
 
 ## 🧠 Actividades realizadas en clase
 
-Describa brevemente qué se hizo durante la sesión:
 Durante la sesión el equipo trabajó en el análisis y modelado de la infraestructura tecnológica de la plataforma RedExpress, una aplicación diseñada para gestionar envíos y permitir el rastreo de paquetes en tiempo real mediante una aplicación móvil utilizada por los mensajeros y una plataforma web utilizada por operadores logísticos y clientes.
 
 El objetivo principal de la sesión fue construir un mapa preliminar de infraestructura que permitiera visualizar cómo interactúan los diferentes componentes tecnológicos del sistema, desde los dispositivos móviles que generan las solicitudes hasta los servicios que procesan la información en la nube.

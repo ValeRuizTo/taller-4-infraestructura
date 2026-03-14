@@ -87,7 +87,7 @@ Este análisis preliminar servirá como base para futuras mejoras en la arquitec
 
 ## 🧩 Boceto inicial del modelo
 
-> (Puede insertar aquí una imagen del boceto, una captura de pantalla o un diagrama preliminar si ya fue hecho en digital)
+![.](DiagramaInfraEstructuraEjemplo.png)
 
 ## Flujo de funcionamiento del sistema
 
